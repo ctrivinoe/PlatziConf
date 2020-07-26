@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <prueba>aaaa</prueba>
+    <dimen name="heightLogoPlatzi">45dp</dimen>
+    <dimen name="toolbarHeight">30dp</dimen>
+    <dimen name="cardCornerRadius">4dp</dimen>
+    <dimen name="heightImageViewHome">150dp</dimen>
+    <dimen name="sizeTitle">20sp</dimen>
+    <dimen name="marginHomeSubTitle">10dp</dimen>
 </resources>
