@@ -8,4 +8,6 @@
     <dimen name="sizeTitle">20sp</dimen>
     <dimen name="sizeSubTitle">15sp</dimen>
     <dimen name="marginHomeSubTitle">10dp</dimen>
+    <dimen name="itemScheduleTittle">30sp</dimen>
+    <dimen name="itemScheduleSubTittle">20sp</dimen>
 </resources>
