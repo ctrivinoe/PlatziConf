@@ -29,16 +29,48 @@
                     android:text="A.M."
                     android:gravity="right|bottom"
                     android:textSize="@dimen/itemScheduleSubTittle"
-                    android:textColor="@color/colorPrimary"
+                    android:textColor="@color/colorPrimary">
+
+                </TextView>
 
             </LinearLayout>
 
         <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:orientation="vertical">
-
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+                <TextView
+                    android:id="@+id/tvItemScheduleConferenceName"
+                    android:textSize="20sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nombre de la conferencia"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:ellipsize="end"
+                    android:lines="1"
+                />
+                <TextView
+                    android:id="@+id/tvItemScheduleConferenceSpeaker"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Speaker name"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorPrimary"
+                    android:ellipsize="end"
+                    android:lines="1"
+                />
+                <TextView
+                    android:id="@+id/tvItemScheduleTag"
+                    android:textSize="20sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="tag"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:textColor="#FFFFFF"
+                />
         </LinearLayout>
 
 
