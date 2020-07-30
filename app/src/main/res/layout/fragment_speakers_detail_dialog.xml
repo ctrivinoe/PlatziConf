@@ -24,28 +24,14 @@
                         android:orientation="vertical">
                     <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="200dp">
+                            android:layout_height="wrap_content">
                         <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                        android:src="@drawable/platzi_conf_2"
-                        android:scaleType="centerCrop"/>
-                        <View
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:background="@color/colorPrimary"
-                                android:alpha="0.5"
+                        android:src="@mipmap/ic_launcher_round"
                         />
-                        <TextView
-                                android:id="@+id/tvDetailConferenceTitle"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="Titulo de la conferencia"
-                                android:gravity="center_horizontal"
-                                android:textSize="@dimen/itemScheduleTittle"
-                                android:textColor="#FFFFFF"
-                                android:textStyle="bold"
-                            android:layout_centerInParent="true"/>
+
+
                     </RelativeLayout>
 
                     <androidx.cardview.widget.CardView
@@ -58,22 +44,12 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                         android:orientation="vertical">
+
                             <TextView
-                                    android:id="@+id/tvDetailConferenceHour"
+                                    android:id="@+id/tvDetailSpeakerName"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="00:00"
-                                    android:gravity="center_horizontal"
-                                    android:textSize="15sp"
-                                    android:textColor="@color/colorPrimary"
-                                    android:layout_margin="5dp"
-                                    android:layout_centerInParent="true"
-                            />
-                            <TextView
-                                    android:id="@+id/tvDetailConferenceSpeaker"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:text="Nombre Speaker"
+                                    android:text="Nombre Apellido"
                                     android:gravity="center_horizontal"
                                     android:textSize="20sp"
                                     android:textStyle="bold"
@@ -82,10 +58,10 @@
                                     android:layout_centerInParent="true"
                             />
                             <TextView
-                                    android:id="@+id/tvDetailConferenceTag"
+                                    android:id="@+id/tvDetailSpeakerJobtitle"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="Tag"
+                                    android:text="Jobtitle"
                                     android:gravity="center_horizontal"
                                     android:textSize="15sp"
                                     android:textColor="@color/colorPrimary"
@@ -93,12 +69,38 @@
                                     android:layout_centerInParent="true"
                             />
                             <TextView
-                                    android:id="@+id/tvDetailConferenceDescription"
+                                    android:id="@+id/tvDetailSpeakerJob"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="Detalle de la conferencia"
+                                    android:text="Trabajo"
                                     android:gravity="center_horizontal"
+                                    android:textSize="20sp"
+                                    android:textColor="@color/colorPrimary"
+                                    android:layout_margin="5dp"
+                                    android:layout_centerInParent="true"
+                            />
+                            <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="2dp"
+
+                            />
+                            <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/tw"
+                                    />
+                            <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="2dp"
+
+                            />
+                            <TextView
+                                    android:id="@+id/tvDetailSpeakerBio"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Biografia lorem itsum"
                                     android:textSize="15sp"
+                                    android:gravity="center_horizontal"
                                     android:textColor="@color/colorPrimary"
                                     android:layout_margin="5dp"
                                     android:layout_centerInParent="true"
