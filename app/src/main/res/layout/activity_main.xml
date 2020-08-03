@@ -24,7 +24,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 app:layout_behavior="@string/appbar_scrolling_view_behavior">
-
+                
+                
+                <fragment
+                        android:id="@+id/fragContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_above="@+id/bnvMenu"
+                        app:navGraph="@navigation/nav_graph"
+                        app:defaultNavHost="true"
+                        android:name="androidx.navigation.fragment.NavHostFragment"
+                />
                 <com.google.android.material.bottomnavigation.BottomNavigationView
                         android:id="@+id/bnvMenu"
                         android:layout_width="match_parent"

@@ -21,17 +21,18 @@
             <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
-               ç
+                    android:orientation="vertical"
+                    android:background="@drawable/shape_parrafo">
+
                         android:layout_width="match_parent"
-                        android:layout_height="200dp">
+                        android:layout_height="200dp"/>
                     <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="230dp"
                             android:src="@drawable/platzi_conf_2"
                             android:scaleType="centerCrop"/>
 
-              ç
+
 
                 <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"

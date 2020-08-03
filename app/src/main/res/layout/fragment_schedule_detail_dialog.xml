@@ -21,7 +21,8 @@
             <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@drawable/shape_parrafo">
                 <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="200dp">
@@ -68,6 +69,7 @@
                                 android:textColor="@color/colorPrimary"
                                 android:layout_margin="5dp"
                                 android:layout_centerInParent="true"
+
                         />
                         <TextView
                                 android:id="@+id/tvDetailConferenceSpeaker"
@@ -83,14 +85,15 @@
                         />
                         <TextView
                                 android:id="@+id/tvDetailConferenceTag"
-                                android:layout_width="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Tag"
-                                android:gravity="center_horizontal"
                                 android:textSize="15sp"
                                 android:textColor="@color/colorPrimary"
                                 android:layout_margin="5dp"
-                                android:layout_centerInParent="true"
+
+                                android:background="@drawable/shape_topico"
                         />
                         <TextView
                                 android:id="@+id/tvDetailConferenceDescription"
