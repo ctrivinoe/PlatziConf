@@ -1,2 +1,3 @@
 # PlatziConf
 Platzi conf
+ssh
