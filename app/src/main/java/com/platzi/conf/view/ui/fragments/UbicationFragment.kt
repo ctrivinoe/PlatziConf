@@ -1,4 +1,4 @@
-package com.platzi.conf.ui.fragments
+package com.platzi.conf.view.ui.fragments
 
 import android.content.Context
 import android.net.Uri
