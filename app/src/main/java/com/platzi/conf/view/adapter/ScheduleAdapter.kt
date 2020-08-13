@@ -40,7 +40,7 @@ class ScheduleAdapter (val scheduleListener: ScheduleListener) : RecyclerView.Ad
 
     }
 
-    fun updateData(data: List<Conference>){
+    fun updateData(data: List<android.telecom.Conference>){
         listConference.clear()
         listConference.addAll(data)
         notifyDataSetChanged()
