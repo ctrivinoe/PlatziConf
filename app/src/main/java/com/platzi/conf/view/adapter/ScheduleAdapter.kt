@@ -1,12 +1,13 @@
 package com.platzi.conf.view.adapter
 
-import com.platzi.conf.model.Conference
+
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.platzi.conf.R
+import com.platzi.conf.model.Conference
 import java.util.*
 import java.text.SimpleDateFormat
 import kotlin.collections.ArrayList
@@ -40,7 +41,7 @@ class ScheduleAdapter (val scheduleListener: ScheduleListener) : RecyclerView.Ad
 
     }
 
-    fun updateData(data: List<android.telecom.Conference>){
+    fun updateData(data: List<Conference>){
         listConference.clear()
         listConference.addAll(data)
         notifyDataSetChanged()
