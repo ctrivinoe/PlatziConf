@@ -51,13 +51,8 @@ class ScheduleFragment : Fragment(), ScheduleListener {
     }
 
     fun observeViewModel() {
-        viewModel.listSchedule.observe(this, Observer<List<Conference>> {schedule ->
+        viewModel.listSchedule.observe(this, Observer<List<com.platzi.conf.model.Conference>> {schedule ->
             scheduleAdapter.updateData(schedule)
-        })
-
-        viewModel.isLoading.observe(this, Observer<Boolean> {
-            if(it != null)
-                rlBaseSchedule.visibility = View.INVISIBLE
         })
     }
 

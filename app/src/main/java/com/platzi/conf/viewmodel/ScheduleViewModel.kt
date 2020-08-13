@@ -9,7 +9,7 @@ import java.lang.Exception
 
 class ScheduleViewModel: ViewModel() {
     val firestoreService = FirestoreService()
-    var listSchedule: MutableLiveData<List<Conference>> = MutableLiveData()
+    var listSchedule: MutableLiveData<List<com.platzi.conf.model.Conference>> = MutableLiveData()
     var isLoading = MutableLiveData<Boolean>()
 
     fun refresh() {
@@ -17,8 +17,8 @@ class ScheduleViewModel: ViewModel() {
     }
 
     fun getScheduleFromFirebase() {
-        firestoreService.getSchedule(object : Callback<List<Conference>> {
-            override fun onSuccess(result: List<Conference>?) {
+        firestoreService.getSchedule(object : Callback<List<com.platzi.conf.model.Conference>> {
+            override fun onSuccess(result: List<com.platzi.conf.model.Conference>?) {
                 listSchedule.postValue(result)
                 processFinished()
             }
