@@ -3,7 +3,6 @@ package com.platzi.conf.view.ui.fragments
 
 import android.graphics.Color
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -34,6 +33,7 @@ class ScheduleDetailDialogFragment : DialogFragment() {
         super.onViewCreated(view, savedInstanceState)
         toolbarConference.navigationIcon = ContextCompat.getDrawable(view.context, R.drawable.ic_close)
         toolbarConference.setTitleTextColor(Color.WHITE)
+
         toolbarConference.setNavigationOnClickListener {
             dismiss()
         }
@@ -41,14 +41,19 @@ class ScheduleDetailDialogFragment : DialogFragment() {
         val conference = arguments?.getSerializable("conference") as Conference
         toolbarConference.title = conference.title
 
-        tvItemScheduleConferenceName.text = conference.title
-        val pattern = "dd/MM/yyyy hh:mm a"
-        val simpleDF = SimpleDateFormat(pattern)
-        val date = simpleDF.format(conference.datetime)
-        tvDetailConferenceHour.text = date
-        tvDetailConferenceSpeaker.text = conference.speaker
-        tvDetailConferenceTag.text = conference.tag
-        tvDetailConferenceDescription.text = conference.description
+
+         //tvItemScheduleConferenceName.text = conference.title
+        tvItemScheduleTituloConferencia.text = conference.title
+
+         val pattern = "dd/MM/yyyy hh:mm a"
+         val simpleDF = SimpleDateFormat(pattern)
+         val date = simpleDF.format(conference.datetime)
+         tvDetailConferenceHour.text = date
+
+
+         tvDetailConferenceSpeaker.text = conference.speaker
+         tvDetailConferenceTag.text = conference.tag
+         tvDetailConferenceDescription.text = conference.description
 
     }
 

@@ -2,7 +2,6 @@ package com.platzi.conf.view.ui.fragments
 
 
 import android.os.Bundle
-import android.telecom.Conference
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -14,6 +13,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 
 import com.platzi.conf.R
+import com.platzi.conf.model.Conference
 import com.platzi.conf.view.adapter.ScheduleAdapter
 import com.platzi.conf.view.adapter.ScheduleListener
 import com.platzi.conf.viewmodel.ScheduleViewModel
@@ -51,13 +51,13 @@ class ScheduleFragment : Fragment(), ScheduleListener {
     }
 
     fun observeViewModel() {
-        viewModel.listSchedule.observe(this, Observer<List<com.platzi.conf.model.Conference>> {schedule ->
+        viewModel.listSchedule.observe(this, Observer<List<Conference>> {schedule ->
             scheduleAdapter.updateData(schedule)
         })
     }
 
-    override fun onConferenceClicked(conference: com.platzi.conf.model.Conference, position: Int) {
-        val bundle = bundleOf("conference" to conference)
+    override fun onConferenceClicked(conference: Conference, position: Int) {
+        var bundle = bundleOf("conference" to conference)
         findNavController().navigate(R.id.scheduleDetailFragmentDialog, bundle)
     }
 

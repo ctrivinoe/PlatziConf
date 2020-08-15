@@ -21,8 +21,7 @@
             <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:background="@drawable/shape_parrafo">
+                    android:orientation="vertical">
                 <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="200dp">
@@ -37,8 +36,9 @@
                             android:background="@color/colorPrimary"
                             android:alpha="0.5"
                     />
+
                     <TextView
-                            android:id="@+id/tvDetailConferenceTitle"
+                            android:id="@+id/tvItemScheduleTituloConferencia"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Titulo de la conferencia"
@@ -46,7 +46,7 @@
                             android:textSize="@dimen/itemScheduleTittle"
                             android:textColor="#FFFFFF"
                             android:textStyle="bold"
-                            android:layout_centerInParent="true"/>
+                            android:layout_centerInParent="true"/>-
                 </RelativeLayout>
 
                 <androidx.cardview.widget.CardView
@@ -59,6 +59,9 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:orientation="vertical">
+
+
+
                         <TextView
                                 android:id="@+id/tvDetailConferenceHour"
                                 android:layout_width="match_parent"
