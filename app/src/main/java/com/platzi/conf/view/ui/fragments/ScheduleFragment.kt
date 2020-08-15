@@ -61,4 +61,5 @@ class ScheduleFragment : Fragment(), ScheduleListener {
         findNavController().navigate(R.id.scheduleDetailFragmentDialog, bundle)
     }
 
+
 }
