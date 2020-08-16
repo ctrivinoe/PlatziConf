@@ -41,12 +41,13 @@
                             android:id="@+id/tvItemScheduleTituloConferencia"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+
+                            android:gravity="center_vertical"
                             android:text="Titulo de la conferencia"
-                            android:gravity="center_horizontal"
-                            android:textSize="@dimen/itemScheduleTittle"
                             android:textColor="#FFFFFF"
-                            android:textStyle="bold"
-                            android:layout_centerInParent="true"/>-
+                            android:textSize="@dimen/itemScheduleTittle"
+                            android:textStyle="bold" />-
                 </RelativeLayout>
 
                 <androidx.cardview.widget.CardView
