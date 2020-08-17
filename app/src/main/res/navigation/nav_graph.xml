@@ -44,7 +44,7 @@
             android:label="fragment_ubication"
             tools:layout="@layout/fragment_ubication" >
         <action
-                android:id="@+id/action_navMapFragment_to_ubicationDetailFragmentDialog"
+                android:id="@+id/action_navMapFragment_to_ubicationDetailFragmentDialog3"
                 app:destination="@id/ubicationDetailFragmentDialog" />
     </fragment>
 
@@ -64,10 +64,10 @@
 
     <dialog
             android:id="@+id/ubicationDetailFragmentDialog"
-            android:name="com.platzi.conf.view.ui.fragments.UbicationDetaillDialogFragment"
+            android:name="com.platzi.conf.view.ui.fragments.UbicationDetaillDialogFrament"
             android:label="UbicationDetailFragmentDialog"
-            tools:layout="@layout/fragment_ubication_detaill_dialog">
-    </dialog>
+            tools:layout="@layout/fragment_ubication_detail_dialog">
+   </dialog>
 
 
 </navigation>
