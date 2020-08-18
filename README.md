@@ -8,5 +8,6 @@ En construcción...
 ![](https://media.giphy.com/media/KdxKYiLdahsgc3FBPy/giphy.gif)
 </br><br>
 
-![](https://media.giphy.com/media/KHQthtJCGyk1tJEccF/giphy.gif)
+![](https://github.com/ctrivinoe/PlatziConf/blob/master/resourcesREADME/Animated%20GIF-downsized_large.gif?raw=true)
 ![](https://media.giphy.com/media/cLHLNoL2QTztpsA456/giphy.gif)
+
