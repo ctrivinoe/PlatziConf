@@ -48,6 +48,7 @@ class SpeakerAdapter (val speakerListener: SpeakerListener) : RecyclerView.Adapt
         val tvSpeakerName = itemView.findViewById<TextView>(R.id.tvItemSpeakerName)
         val tvSpeakerWork = itemView.findViewById<TextView>(R.id.tvItemSpeakerWork)
         val ivSpeakerImage = itemView.findViewById<ImageView>(R.id.ivItemSpeaker)
+        
     }
 
 }

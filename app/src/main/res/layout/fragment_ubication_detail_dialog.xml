@@ -79,7 +79,7 @@
                         <View
                                 android:layout_width="match_parent"
                                 android:layout_height="1dp"
-                                android:background="@color/colorPrimary"
+                                android:background="@color/cardview_light_background"
                                 />
                         <LinearLayout
                                 android:id="@+id/llTelefonoLugar"
@@ -108,7 +108,7 @@
                         <View
                                 android:layout_width="match_parent"
                                 android:layout_height="1dp"
-                                android:background="@color/colorPrimary"
+                                android:background="@color/cardview_light_background"
                                 />
                         <LinearLayout
                                 android:id="@+id/llSitioWeb"
@@ -134,13 +134,6 @@
 
                                     />
                         </LinearLayout>
-                        <View
-                                android:layout_width="match_parent"
-                                android:layout_height="1dp"
-                                android:background="@color/colorPrimary"
-                                />
-
-
 
 
 

@@ -28,12 +28,15 @@ class ScheduleAdapter (val scheduleListener: ScheduleListener) : RecyclerView.Ad
             holder.tvConferenceSpeaker.text = conference.speaker
             holder.tvConferenceTag.text = conference.tag
 
+            val simpleDateformat = SimpleDateFormat("HH:mm")
+            val simpleDateformatAMPM = SimpleDateFormat("a")
+
             val cal = Calendar.getInstance()
             cal.time = conference.datetime
-            val hourFormat = SimpleDateFormat().format(conference.datetime)
+            val hourFormat = simpleDateformat.format(conference.datetime)
 
             holder.tvConferenceHour.text = hourFormat
-            holder.tvConferenceAMPM.text = SimpleDateFormat().format(conference.datetime).toUpperCase()
+            holder.tvConferenceAMPM.text = simpleDateformatAMPM.format(conference.datetime).toUpperCase()
 
         holder.itemView.setOnClickListener {
             scheduleListener.onConferenceClicked(conference, position)
