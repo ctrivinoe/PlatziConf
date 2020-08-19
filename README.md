@@ -1,5 +1,6 @@
 # PlatziConf 💚
-## Android - Kotlin
+## Android - Kotlin 
+[<img align="left" alt="ctrivinoe.com" width="22px" src="https://raw.githubusercontent.com/ctrivinoe/PlatziConf/master/resourcesREADME/Kotlin_android.png"/>]()
 
 _Project developed for the [Platzi's](https://platzi.com/clases/kotlin-android/) Kotlin for Android course._
 
@@ -26,9 +27,10 @@ _You can install the app on your device from Android Studio_
 
 ## Tools 🛠️
 
-* [Android Studio 4.0.1](https://developer.android.com/studio?hl=es) 
-* [Firebase 🔥](https://firebase.google.com/) 
-* [Google Cloud Plataform](https://cloud.google.com/)
+* [Android Studio 4.0.1](https://developer.android.com/studio?hl=es) - IDE
+* [Firebase 🔥](https://firebase.google.com/) - Cloud Database
+* [Google Cloud Plataform](https://cloud.google.com/) - API for Google Map
+* [Balsamiq Wireframes](https://balsamiq.com/wireframes/desktop/#) - Mockup creator
 
 
 ## Author ✒️
