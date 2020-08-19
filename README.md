@@ -28,12 +28,12 @@ _You can install the app on your device from Android Studio_
 
 * [Android Studio 4.0.1](https://developer.android.com/studio?hl=es) 
 * [Firebase 🔥](https://firebase.google.com/) 
-* [Google Cloud Plataform] (https://cloud.google.com/)
+* [Google Cloud Plataform](https://cloud.google.com/)
 
 
 ## Author ✒️
 
-* **Cristian Triviño Estévez** - [Personal Site] (https://ctrivinoe.com)
+* **Cristian Triviño Estévez** - [Personal Site](https://ctrivinoe.com)
 
 
 ---
